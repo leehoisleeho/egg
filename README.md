@@ -1,33 +1,8 @@
-# dijia
-
-API接口
-
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
-### Development
+### 简单的egg模板 
+1. 对数据库的增删改查
+2. 上传文件接口
 
 ```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+$ yarn i
+$ yarn dev
 ```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
