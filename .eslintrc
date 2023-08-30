@@ -1,0 +1,22 @@
+{
+  "extends": "eslint-config-egg",
+  "parser": "babel-eslint",
+  "rules": {
+    "quotes": ["error", "double"],
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+    "no-console": "error",
+    "eqeqeq": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "comma-dangle": ["error", "never"],
+    "no-extra-parens": "error",
+    "space-infix-ops": "error",
+    "no-var": "error",
+    "arrow-spacing": "error",
+    "no-eval": "error",
+    "no-with": "error",
+    "no-global-assign": "error",
+    "no-await-in-loop": "error"
+  }
+}
