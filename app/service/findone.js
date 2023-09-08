@@ -2,7 +2,7 @@
 
 const Service = require("egg").Service;
 
-class GetService extends Service {
+class FindOneService extends Service {
     async index(id, tableName) {
         if (id) {
             const result = await this.app.mysql.get(tableName, {id});
@@ -14,4 +14,4 @@ class GetService extends Service {
     }
 }
 
-module.exports = GetService;
+module.exports = FindOneService;

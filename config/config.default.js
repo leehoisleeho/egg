@@ -24,18 +24,18 @@ module.exports = (appInfo) => {
   const userConfig = {};
   // 配置中间件
   config.middleware = [];
-  // 配置mysql
-  // userConfig.mysql = {
-  //   client: {
-  //     host: "119.45.199.52",
-  //     port: "3306",
-  //     user: "dijia",
-  //     password: "123456",
-  //     database: "dijia",
-  //   },
-  //   app: true,
-  //   agent: false,
-  // };
+  //配置mysql
+  userConfig.mysql = {
+    client: {
+      host: "119.45.199.52",
+      port: "3306",
+      user: "dijia",
+      password: "123456",
+      database: "dijia",
+    },
+    app: true,
+    agent: false,
+  };
   // 配置跨域
   userConfig.cors = {
     origin: "*",

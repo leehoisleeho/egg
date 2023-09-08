@@ -15,5 +15,7 @@ module.exports = (app) => {
   router.post("/api/login", controller.login.index); // 登录接口的路由
   router.post("/api/checkToken", controller.checkToken.index); // 验证token是否过期的路由
   router.post("/api/update",controller.update.index) // 上传文件
-  router.get("/api/index",controller.index.index)
+
+  // example
+  router.get("/api/example/find",controller.example.find)
 };
