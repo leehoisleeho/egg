@@ -16,9 +16,8 @@ module.exports = (app) => {
     router.post("/api/checkToken", controller.checkToken.index); // 验证token是否过期的路由
     router.post("/api/upload", controller.file.upload) // 上传文件
     router.delete("/api/remove", controller.file.remove) // 删除文件
-
     // CURD example
-    router.get("/api/example/find", controller.example.find) //查找所有
+    router.get("/api/example/find",controller.example.find) //查找所有
     router.get("/api/example/findOne/:id", controller.example.findOne) //查找一个
     router.post("/api/example/create", controller.example.create) //创建
     router.delete("/api/example/delete/:id", controller.example.delete) //删除
