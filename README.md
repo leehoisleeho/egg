@@ -1,6 +1,6 @@
 <p align="center"><img width="200" src="./app/public/logo.png" alt="Vue logo"></p>
 
-## Egg
+## Egg simple packag
 
 #### 🧾 描述
 一个简单封装的egg模板
