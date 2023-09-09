@@ -5,7 +5,6 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-
 module.exports = (appInfo) => {
   /**
    * built-in config
@@ -27,11 +26,11 @@ module.exports = (appInfo) => {
   //配置mysql
   userConfig.mysql = {
     client: {
-      host: "119.45.199.52",
+      host: "127.0.0.1",
       port: "3306",
-      user: "dijia",
-      password: "123456",
-      database: "dijia",
+      user: "root",
+      password: "lh123456",
+      database: "leeho",
     },
     app: true,
     agent: false,

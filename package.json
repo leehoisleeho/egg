@@ -1,7 +1,7 @@
 {
-  "name": "dijia",
-  "version": "1.0.0",
-  "description": "官网的后台接口",
+  "name": "egg",
+  "version": "0.0.2",
+  "description": "egg模板",
   "private": true,
   "egg": {
     "declarations": true
